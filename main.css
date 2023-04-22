@@ -1,0 +1,125 @@
+
+/*DEVELOPER: Asmaa Ikani, IS117-002, Spring 2023*/
+
+body{
+    font-family: Georgia, Helvetica, "American Typewriter", sans-serif;
+    font-size: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border: 3px solid lightpink;
+    background-color: whitesmoke;
+}
+h4 img{
+    float: left;
+    margin: 0.5em;
+    max-width: 100%;
+    height: auto;
+}
+h4{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img-fluid section section h4{
+    max-width: 100%;
+    height: auto;
+}
+.card-text{
+
+}
+
+/*section h5 img{*/
+/*    float: right;*/
+/*    margin-right: 1em;*/
+/*    margin-bottom: 1em;*/
+/*    margin-left: 1em;*/
+/*    margin-top: 1em;*/
+/*}*/
+
+.card section{
+    float: right;
+    margin: auto;
+}
+aside{
+    float: right;
+}
+.card mb-3{
+    max-width: 75%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+section blockquote{
+    padding: 0 2em;
+    font-style: italic;
+}
+section ul li{
+    list-style-type: none;
+}
+h2{
+    text-align: center;
+}
+.img-fluid{
+    max-width: 30vw;
+
+}
+section h3{
+    text-align: center;
+    font-size: 100%;
+}
+
+section h5{
+    font-size: 100%;
+}
+section h5{
+    margin-left: 10px;
+}
+section img{
+    float:left;
+}
+
+footer {
+    background-color: #ffe6ee;
+    clear: both;
+}
+
+footer p {
+    text-align: center;
+    color: black;
+    padding: 1em 0;
+    margin-bottom: 0;
+}
+.card {
+    float: left;
+    margin: 20px 20px 20px 30px;
+}
+.btn{
+    background-color: #ffe6ee;
+    color: black;
+    border: #ffe6ee;
+}
+
+.btn:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-color: #ffe6ee;
+}
+.btn {
+    transition: all .7s;
+}
+@media only screen and (max-width: 959px) {
+    section h1 { font-size: 135%; }
+    section h2, aside h2 { font-size: 120%; }
+}
+
+@media only screen and (max-width: 767px) {
+    /*header img { float: none; }*/
+    header { text-align: center; }
+    section {
+        float: none;
+        width: 95%; /* 100 - (2 x 2.5) for padding */
+    }
+    @media only screen and (max-width: 479px) {
+        body { font-size: 90%; }
+    }
+}
+
